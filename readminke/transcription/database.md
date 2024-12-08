@@ -21,7 +21,7 @@ columns:
     position: 2
     isHidden: false
     sortIndex: -1
-    width: 205
+    width: 159
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -37,7 +37,7 @@ columns:
     key: date
     id: date
     label: date
-    position: 4
+    position: 5
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -57,7 +57,7 @@ columns:
     key: language
     id: language
     label: language
-    position: 5
+    position: 6
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -80,8 +80,10 @@ columns:
     position: 1
     skipPersist: false
     isHidden: false
-    sortIndex: -1
-    width: -14
+    sortIndex: 1
+    width: -23
+    isSorted: true
+    isSortedDesc: false
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -97,7 +99,7 @@ columns:
     key: author
     id: author
     label: author
-    position: 3
+    position: 4
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -116,7 +118,7 @@ columns:
     key: wikidata
     id: wikidata
     label: wikidata
-    position: 8
+    position: 9
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -135,7 +137,7 @@ columns:
     key: wikidata_link
     id: wikidata_link
     label: wikidata link
-    position: 9
+    position: 10
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -156,7 +158,7 @@ columns:
     key: topic
     id: topic
     label: topic
-    position: 6
+    position: 7
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -176,7 +178,7 @@ columns:
     key: difficulty
     id: difficulty
     label: difficulty
-    position: 7
+    position: 8
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -189,6 +191,28 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+  title:
+    input: text
+    accessorKey: title
+    key: title
+    id: title
+    label: title
+    position: 3
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    width: 194
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+      wrap_content: true
+      content_alignment: text-align-left
 config:
   remove_field_when_delete_column: false
   cell_size: normal
