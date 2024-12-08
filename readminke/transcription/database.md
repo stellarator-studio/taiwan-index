@@ -21,7 +21,7 @@ columns:
     position: 2
     isHidden: false
     sortIndex: -1
-    width: 159
+    width: 177
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -31,6 +31,7 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
+      content_alignment: text-align-left
   date:
     input: calendar
     accessorKey: date
@@ -41,7 +42,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 125
+    width: 101
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -62,6 +63,12 @@ columns:
     isHidden: false
     sortIndex: -1
     options:
+      - { label: "南四縣", value: "南四縣", color: "hsl(54, 95%, 90%)"}
+      - { label: "大埔", value: "大埔", color: "hsl(69, 95%, 90%)"}
+      - { label: "四縣", value: "四縣", color: "hsl(95, 95%, 90%)"}
+      - { label: "海陸", value: "海陸", color: "hsl(249, 95%, 90%)"}
+      - { label: "詔安", value: "詔安", color: "hsl(330, 95%, 90%)"}
+      - { label: "饒平", value: "饒平", color: "hsl(137, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -103,6 +110,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
+    width: 78
     config:
       enable_media_view: true
       link_alias_enabled: true
