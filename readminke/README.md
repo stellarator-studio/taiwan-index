@@ -3,7 +3,8 @@
 * `pdf`: 教育部《閱讀越懂閩客語》臺灣台語、臺灣客語之pdf文章，臺灣客語依照文章內部語言標記，可分為：四縣、南四縣、海陸、大埔、饒平、詔安
 * `transcription`: 自pdf謄寫之逐字稿，遵守CC BY-NC-ND 4.0原則，僅將教育部私有使用區(Private Use Areas)之文字點位轉換為現今Unicode標準
 * `transcription/database.md`: Obsidian資料庫設定檔
-* `private_unicode.tsv`: 原檔存有私有區字元之編碼及其對應
+* `private_unicode.tsv`: 原檔私有使用區字元之編碼及其對應
+* `author.tsv`: 作者及其Wikidata編號列表
 
 # Description
 ## File name convention
