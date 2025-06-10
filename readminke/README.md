@@ -3,7 +3,8 @@
 * `pdf`: 教育部《閱讀越懂閩客語》臺灣台語、臺灣客語之pdf文章，臺灣客語依照文章內部語言標記，可分為：四縣、南四縣、海陸、大埔、饒平、詔安
 * `transcription`: 自pdf謄寫之逐字稿，遵守CC BY-NC-ND 4.0原則，僅將教育部私有使用區(Private Use Areas)之文字點位轉換為現今Unicode標準
 * `transcription/database.md`: Obsidian資料庫設定檔
-* `private_unicode.tsv`: 原檔存有私有區字元之編碼及其對應
+* `private_unicode.tsv`: 原檔私有使用區字元之編碼及其對應
+* `author.tsv`: 作者及其Wikidata編號列表
 
 # Description
 ## File name convention
@@ -13,19 +14,21 @@
 ## Markdown metadata
 
 Markdown metadata有以下幾項：
-* `issue`：期刊號
-* `title`：標題
-* `author`：作者
-* `language`：語言標記，只有在臺灣客語時會標記為下列其中一項：`四縣`、`南四縣`、`海陸`、`大埔`、`饒平`、`詔安`
-* `date`：出刊日期
-* `topic`：主題
-* `difficulty`：難度
-* `wikidata`：對應數據維基之物件ID
-* `wikidata_link`：數據維基連結
+* `issue`: 期刊號
+* `title`: 標題
+* `author`: 作者
+* `language`: 語言標記，只有在臺灣客語時會標記為下列其中一項：`四縣`、`南四縣`、`海陸`、`大埔`、`饒平`、`詔安`
+* `date`: 出刊日期
+* `topic`: 主題
+* `difficulty`: 難度
+* `wikidata`: 對應數據維基之物件ID
+* `wikidata_link`: 數據維基連結
+* `author_wikidata`: 作者對應數據維基之ID
+* `author_wikidata_link`: 作者對應數據維基連結
 
 # Statistics
 
-根據《閱讀越懂閩客語》目錄，共有878篇臺灣台語、臺灣客語文章，惟臺灣台語第189、190期已無pdf檔，因此僅有876份pdf檔。
+根據《閱讀越懂閩客語》目錄，共有878篇臺灣台語、臺灣客語文章。
 
 # Authors
 

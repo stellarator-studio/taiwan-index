@@ -128,7 +128,7 @@ columns:
     label: wikidata
     position: 9
     skipPersist: false
-    isHidden: false
+    isHidden: true
     sortIndex: -1
     config:
       enable_media_view: true
@@ -168,7 +168,7 @@ columns:
     label: topic
     position: 7
     skipPersist: false
-    isHidden: false
+    isHidden: true
     sortIndex: -1
     width: 68
     config:
@@ -188,7 +188,7 @@ columns:
     label: difficulty
     position: 8
     skipPersist: false
-    isHidden: false
+    isHidden: true
     sortIndex: -1
     config:
       enable_media_view: true
@@ -209,7 +209,7 @@ columns:
     skipPersist: false
     isHidden: false
     sortIndex: -1
-    width: 194
+    width: 179
     config:
       enable_media_view: true
       link_alias_enabled: true
@@ -221,6 +221,46 @@ columns:
       persist_changes: false
       wrap_content: true
       content_alignment: text-align-left
+  author_wikidata:
+    input: text
+    accessorKey: author_wikidata
+    key: author_wikidata
+    id: author_wikidata
+    label: author_wikidata
+    position: 11
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  author_wikidata_link:
+    input: formula
+    accessorKey: author_wikidata_link
+    key: author_wikidata_link
+    id: author_wikidata_link
+    label: author_wikidata_link
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: true
+      formula_query: "https://www.wikidata.org/wiki/${row.author_wikidata}"
+      formula_persist_type: text
 config:
   remove_field_when_delete_column: false
   cell_size: normal
@@ -240,8 +280,8 @@ config:
   source_destination_path: /
   row_templates_folder: /
   current_row_template: 
-  pagination_size: 10
-  font_size: 16
+  pagination_size: 50
+  font_size: 13
   enable_js_formulas: false
   formula_folder_path: /
   inline_default: false
