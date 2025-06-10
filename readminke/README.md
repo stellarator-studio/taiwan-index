@@ -14,15 +14,17 @@
 ## Markdown metadata
 
 Markdown metadata有以下幾項：
-* `issue`：期刊號
-* `title`：標題
-* `author`：作者
-* `language`：語言標記，只有在臺灣客語時會標記為下列其中一項：`四縣`、`南四縣`、`海陸`、`大埔`、`饒平`、`詔安`
-* `date`：出刊日期
-* `topic`：主題
-* `difficulty`：難度
-* `wikidata`：對應數據維基之物件ID
-* `wikidata_link`：數據維基連結
+* `issue`: 期刊號
+* `title`: 標題
+* `author`: 作者
+* `language`: 語言標記，只有在臺灣客語時會標記為下列其中一項：`四縣`、`南四縣`、`海陸`、`大埔`、`饒平`、`詔安`
+* `date`: 出刊日期
+* `topic`: 主題
+* `difficulty`: 難度
+* `wikidata`: 對應數據維基之物件ID
+* `wikidata_link`: 數據維基連結
+* `author_wikidata`: 作者對應數據維基之ID
+* `author_wikidata_link`: 作者對應數據維基連結
 
 # Statistics
 
